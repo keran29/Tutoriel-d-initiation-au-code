@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>TUTO CSS</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .retour{
+                text-align: center;
+                padding-top: 10px;
+
+            }
+            a:hover, a{
+                color: white;
+                text-decoration: none;
+            }
+            body{
+                font-weight: bold;
+            }
+            .img-css, .img-sans-css{
+                height: 200px;
+                text-align: center;
+                margin-left: 70vh;
+            }
+            body{
+                background-image: url(img/back-test.jpg);
+                background-position: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="retour">
+            <button type="button" class="btn btn-primary btn-xs "><a href="Start.html"><i class="fa fa-hand-o-left" aria-hidden="true"></i>RETOUR MENU</a></button>
+
+            <h1>LE CSS ?</h1>
+            <p>CSS ? C'est lui qui vous permet de choisir la couleur de votre texte.
+                Lui qui vous permet de sélectionner la police utilisée sur votre site.
+                Lui encore qui permet de définir la taille du texte, les bordures, le fond…
+
+                Et aussi, c'est lui qui permet de faire la mise en page de votre site. Vous pourrez dire : je veux que mon menu soit à gauche et occupe telle largeur, que l'en-tête de mon site soit calé en haut et qu'il soit toujours visible, etc.</p>
+            <p>Voila un exemple de page sans CSS et avec css : </p>
+            <h2>SANS CSS :</h2>
+            <img class="img-sans-css img-responsive" src="img/sans%20css.PNG" alt="">
+            <br>
+            <h2>AVEC CSS :</h2>
+            <img class="img-css img-responsive" src="img/avec%20css.PNG" alt="">
+            <br>
+            <h1>Où écrit-on le CSS ?</h1>
+            <p>Vous avez le choix car on peut écrire du code en langage CSS à trois endroits différents :</p>
+            <p>dans un fichier .css (méthode la plus recommandée) ;
+                dans l'en-tête < head > du fichier HTML ;
+                directement dans les balises du fichier HTML via un attribut style (méthode la moins recommandée).</p>
+                <p>Dans mon exemple je vais le faire dans un fichier.css (le plus recommandé!)</p>
+                <br>
+                <p>Tout dabord vous devez créer votre fichier.css dans votre dossier et nommée le style.css ou main.css ou encore fichier.css, le meme endroit ou vous avez créer votre fichier.html su l'exercice precedent sur "comment cree une page html".</p>
+                <br>
+                <img src="img/creestylecss.PNG" alt="">
+                <br>
+                <p>Ensuite dans le head de votre html, declarer votre fichier css avec la balise link : < link rel= " stylesheet " href = " style.css " / >comme ci dessous : </p>
+                <img src="img/declarecss.PNG" alt="">
+                <br>
+                <p>Maintenant ouvrer votre fichier.css (style.css ou main.css) dans un editeur (brackets ou autres)</p>
+                <p>Et commencer a changer les couleurs de vos paragraphe : exemple : </p>
+                <img src="img/pcss.PNG" alt="">
+                <p>On declare la balise qu'ont veut modifier, la c'est les paragraphes donc ont vois bien ci dessus que j'ai mis p{} et entre ces cotes j'ai mis du code css {color : blue} pour mettre la couleur de tout les paragraphes en bleu, et je pourrait mettre {color:green} pour quil soit vert ou autre red,yellow,brown, ect.... </p>
+                <p>Resultat : </p>
+                <img src="img/penbleu.PNG" alt="">
+                
+                <h1>Voila c'est la fin de ce tuto</h1>
+                <p>Cependent vous pouvez vous amusez a modifier la couleur de vos paragraphe et c'est pareille pour les titres sauf que a la place du p{} ont mais h1{} </p>
+                
+                <div class="retour">
+            <button type="button" class="btn btn-primary btn-xs "><a href="Start.html"><i class="fa fa-hand-o-left" aria-hidden="true"></i>RETOUR MENU</a></button>
+        </div>
+                
+        
+                
+        </div>
+    </body>
+</html>

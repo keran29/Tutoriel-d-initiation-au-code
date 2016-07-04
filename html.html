@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            a:hover, a{
+                color: white;
+                text-decoration: none;
+            }
+            .retour{
+                text-align: center;
+                padding-top: 10px;
+            }
+            body{
+                text-align: center;
+                background-image: url(img/back-test.jpg);
+                font-weight: bold;
+                background-position: center;
+            }
+            h1{
+
+            }
+            p{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="retour">
+            <button type="button" class="btn btn-primary btn-xs "><a href="Start.html"><i class="fa fa-hand-o-left" aria-hidden="true"></i>RETOUR MENU</a></button>
+        </div>
+
+        <h1>L'HTML : </h1>
+        <p>Definition : Le html est le langage de base pour créer des sites internet. Il permet d'afficher du texte, des images/vidéos ect...<br> Le langage html permet de decrire l'aspect visuel et le contenu d'une page web.</p>
+
+        <h1>1/Voici le code d'une page basic html</h1>
+        <p> La nous avons un titre et deux paragraphes et un autre titre d'une taille plus petit a la fin.</p>
+        <p>Tout ce la ecrit dans des balises ouvrante et fermante. < > </p>
+        <!--code html-->
+        <img src="img/page%20avec%20code%20html.PNG" alt="">
+        <br>
+        <hr>
+
+
+        <br>
+        <!--resultat dans un navigateur-->
+        <h1>2/Voici le resultat visuel du code taper precedemment dans un navigateur.</h1>
+        <p>Comme vous le voyer ci dessous nous avons bien notre premier titre, nos deux paragraphes et notre deuxieme titre plus petit a la fin.</p>
+        <img src="img/page%20html%20sans%20code.PNG" alt="">
+
+        <h1>3/Ecrire du code </h1>
+        <p>Pour ecrire du code html nous avons besoin d'un editeur html comme notepad++ ou d'autre editeur plus perfectionné comme brackets, sublime text, ou encore atom (ces editeurs son gratuit). Un editeur html est un logiciel conçu pour facilliter la préparation et la modification de page ecrit en HTML </p>
+        <p>Voila ci dessous l'editeur de code  <strong>Brackets</strong></p>
+
+        <img src="img/brackets1.gif" alt="">
+        <br>
+        
+         <h1>Les balises < > </h1>
+         
+         <p>Les balises ouvrantes sont toujours de la forme < exemple > et les balises fermantes de la forme < / exemple > ici le mot (exemple) indique le nom de la balise.</p>
+         <p>Tous les éléments du contenu d’une page HTML sont encadrés par une balise ouvrante et une balise fermante, à part quelques exceptions (dont les plus notables sont la balise < br/ >, qui permet d’aller à la ligne, la balise < img > qui permet d’insérer une image dans la page HTML, et les balises < meta > et < link > sur lesquelles je reviendrai plus tard).</p>
+
+        <br>
+        
+        
+       
+        
+        
+        <hr>
+        <h1>5/La structure</h1>
+
+        <p>On commence toujours une page html avec l'instruction < !DOCTYPE html>. Le « doctype », qui constitue la déclaration initiale d’un document HTML, indique au navigateur la version du langage utilisé pour qu’il puisse l’interpréter selon les normes de la version concernée. </p>
+        <p>Tous les fichiers HTML commencent donc par la déclaration du doctype suivie par la balise ouvrante < html > et ils se terminent tous par la balise fermante < / html >.</p>
+        <p>Le corps du document, constitué par le code placé entre les balises < body >, détermine tout le contenu visible par l’internaute à l’intérieur de la fenêtre du navigateur : les textes, les liens, les images, éventuellement les sons et les vidéos.
+
+Mais si ton corps est visible, les pensées que tu formes dans ta tête sont invisibles. De même, les informations d’en-tête de ton document contenues entre les balises < head > ne sont pas directement visibles dans la fenêtre du navigateur, même si certaines d’entre elles ont une incidence sur la manière dont le contenu visible va s’afficher.</p>
+      <img src="img/000.PNG" alt="">
+       <br>
+       <h1>La déclaration du jeu de caracteres</h1>
+        <p>Parmi les informations contenues entre les balises < head > et < / head >, la première est destinée aux navigateurs. Il s’agit de leur indiquer le type d’encodage qui a été utilisé pour coder la page HTML. On emploie pour cela une balise < meta > avec l’attribut charset (« charset » signifie « jeu de caractères »).</p>
+        <p>le type d’encodage désormais préconisé pour les pages HTML est le UTF-8 qui permet d’écrire l’ensemble des caractères internationaux, comme par exemple le « é » du français et les autres caractères accentués.
+
+On renseignera donc l’attribut charset de la balise < meta > avec la valeur « utf-8 », Mais la plus importante des balises trouvant leur place dans la tête du document (« head ») est certainement la balise < title >. Il s’agit du titre de la page (« title » signifie « titre » en anglais), qui s’affiche dans la bordure en haut de la fenêtre du navigateur, et qui s’affiche également en tête des résultats des recherches que tu fais sur les moteurs de recherche comme Google. </p>
+        
+        <p>Regarder ci dessous c'est exaxtemet ce qu'on vien de parler : </p>
+
+        <img src="img/skelette%20html.PNG" alt="">
+        <hr>
+    
+        <p> La balise body : 
+            C'est là que se trouve la partie principale de la page. Tout ce que nous écrirons ici sera affiché à l'écran. C'est à l'intérieur du corps que nous écrirons la majeure partie de notre code. C'est donc le corp de notre page web.</p>
+        <h1 id="diffbalise">Les differentes balises</h1>
+
+        <p>Pour les titres il existe plusieur taille, du plus gros au plus petit : h1,h2,h3,h4,h5,h6 <button type="button" class="btn btn-primary btn-lg"><a href="lestitres.html">Click pour voir les differents balise titre</a></button> </p> 
+        <p>< p > se place au début d’un paragraphe et < / p > se place à la fin du paragraphe comme ci dessous.<p>
+        <img src="img/exemple%20paragraphe.PNG" alt="">
+        <p>Pour faire des listes ordonné ont utilise la balise OL et LI comme ci-dessous</p>
+        <img src="img/liste%20ordonn%C3%A9.PNG" alt="">
+        <p>et pour les listes désordonné ont utilise la balise UL et LI : </p>
+        <img src="img/liste%20desordon%C3%A9.PNG" alt="">
+        <br>
+        <p>Pour passer a la ligne ont utilise la balise < br ></p>
+        <br>
+        
+        <h1>6/Ta première page HTML</h1>
+        <br>
+        <p>Nous allons commencer notre premiere page</p>
+        <p>Tout d'abort créer un dossier et donner lui le nom que vous voulez, ensuite créer votre fichier.html a l'interieure de ce dossier : (nommer-le fichier.html ou index.html) comme ci dessous.</p>
+        <img src="img/creation%20fichier%20html.PNG" alt="">
+        <br>
+        <p>Ensuite ouvre le avec un editeur (celui de ton choix) et recopie le code suivant, que tu peux entièrement comprendre à présent :</p>
+        <br>
+        <img src="img/creetapage.PNG" alt="">
+        <br>
+        <p>Une page HTML est comme un arbre, les balises HTML s’imbriquent les unes dans les autres. </p>
+        
+        <p>Plus technique si t'arrivent a comprendre : ci dessus  :
+
+La balise < html > est l’ancêtre de toutes les autres balises et plus précisément le parent des balises <head> et <body>.
+Les balises < head > et < body > sont les enfants de la balise < html >.
+La balise < head > est le parent des balises < meta > et < title >.
+Les balises < meta > et < title > sont des balises sœurs. Elles sont les descendantes des balises < html > et < head > et plus précisément les enfants de la balise < head >.
+La balise < body > est le parent des balises < p >.
+Les balises < p > sont des balises sœurs. Elles sont les descendantes des balises <html> et <body> et plus précisément les enfants de la balise < body > .</p>
+      <br>
+       <h1>7/Ajouter une image </h1>
+       <br>
+       <p>Voyons à présent comment insérer une image dans une page web. On utilise une balise < img > ajouter une image dans votre dossier ou copier le lien d'une image a partir d'internet, ensuite donner le chemain de l'image comme ci dessous:</p>
+       <img src="img/exempleimage.PNG" alt="">
+       
+       <br>
+       <p>La balise < img > a deux attributs obligatoires, l’attribut src et l’attribut alt.</p>
+       <p>src signifie « source ». On doit le renseigner avec l’URL de l’image qui indique où se trouve l’image sur le web. Il est en effet possible d’afficher dans une page web une image se trouvant sur un autre serveur que celui qui héberge cette page.</p>
+       <br>
+       <p>alt signifie « texte alternatif ». On doit le renseigner avec un texte court décrivant l’image. Le texte alternatif est utile aux personnes malvoyantes ou non voyantes, qui utilisent des outils de lecture d’écran par synthèse vocale pour prendre connaissance du contenu des pages web. Ils donnent aussi des informations sur les images aux moteurs de recherche.</p>
+       <hr>
+       <h1>8/Fin du tutoriel</h1>
+       <p id="fin">J'espere que mon tutoriel vous a plus, maintenant essayer de faire une page web avec tout ce que je vous est apris et suivez le tuto suivant pour conaitre comment donner du style a votre page ! <button type="button" class="btn btn-primary btn-lg"><a href="css.html">Tutoriel : Donnez du style a votre site ! </a></button> ou vous pouvez retourner au menu principal : <button type="button" class="btn btn-primary btn-xs "><a href="Start.html"><i class="fa fa-hand-o-left" aria-hidden="true"></i>RETOUR MENU</a></button> </p>
+       
+       <h1>Voila un exemple de ce qu'ont peut faire avec ce que je vous es apris</h1>
+            <p>Code : </p>
+            <img src="img/finnnn%20code.PNG" alt="">
+            <br>
+            <p>Resultat dans un navigateur : </p>
+          <img src="img/FIN%20RESULTAt.PNG" alt="">
+          <br>
+          <button type="button" class="btn btn-primary btn-xs "><a href="Start.html"><i class="fa fa-hand-o-left" aria-hidden="true"></i>RETOUR MENU</a></button>
+          <button type="button" class="btn btn-primary btn-xs "><a href="css.html"><i class="fa fa-hand-o-left" aria-hidden="true"></i>TUTORIEL DONNER DU STYLE A VOTRE PAGE </a></button>
+           
+       </body>
+       </html>
+        
+        
+    </body>
+</html>
